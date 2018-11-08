@@ -3,8 +3,7 @@ name = "foo"
 version = "0.1.0"
 authors = ["Nick Alexander <nalexander@mozilla.com>"]
 
-[lib]
-name = "foo"
-crate-type = ["rlib", "cdylib"]
+[features]
+export_fns = []
 
 [dependencies]
