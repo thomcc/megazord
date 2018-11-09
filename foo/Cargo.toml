@@ -3,7 +3,4 @@ name = "foo"
 version = "0.1.0"
 authors = ["Nick Alexander <nalexander@mozilla.com>"]
 
-[features]
-export_fns = []
-
 [dependencies]
