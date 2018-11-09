@@ -1,5 +1,8 @@
-extern crate foo;
-extern crate bar;
+// Note: happens with or without the `pub`s.
+pub extern crate foo;
+pub extern crate bar;
+pub use foo::*;
+pub use bar::*;
 
 #[no_mangle]
 pub unsafe extern "C" fn megazord_fn() -> () {
