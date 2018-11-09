@@ -13,3 +13,8 @@ crate-type = ["cdylib"]
 [dependencies]
 foo = { path = "foo" }
 bar = { path = "bar" }
+
+[profile.release]
+opt-level = "z"
+debug = true
+lto = true
